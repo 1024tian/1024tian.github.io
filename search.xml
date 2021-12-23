@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>rstp</title>
+      <link href="/2021/12/23/stp/"/>
+      <url>/2021/12/23/stp/</url>
+      
+        <content type="html"><![CDATA[<h2 id="STP，生成树协议-IEEE-802-1d-STP"><a href="#STP，生成树协议-IEEE-802-1d-STP" class="headerlink" title="STP，生成树协议,IEEE 802.1d STP"></a>STP，生成树协议,IEEE 802.1d STP</h2><p>Spanning-Tree-Protocol</p><p>第二层网络环路会带来以下问题：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">广播风暴</span><br><span class="line">多帧复制</span><br><span class="line">MAC地址表的不稳定</span><br></pre></td></tr></table></figure><p>为了解决环路问题，又要保证网络的稳定性和健壮性，产生了STP</p><h3 id="STP三种端口类型"><a href="#STP三种端口类型" class="headerlink" title="STP三种端口类型"></a>STP三种端口类型</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">根端口 RP（root port）</span><br><span class="line">指定端口 DP（designated port）</span><br><span class="line">阻塞端口 AP（alter port）</span><br></pre></td></tr></table></figure><h3 id="每个广播域选择一个根桥"><a href="#每个广播域选择一个根桥" class="headerlink" title="每个广播域选择一个根桥"></a>每个广播域选择一个根桥</h3><h2 id="STP选举"><a href="#STP选举" class="headerlink" title="STP选举"></a>STP选举</h2><h3 id="第一步：选根桥"><a href="#第一步：选根桥" class="headerlink" title="第一步：选根桥"></a>第一步：选根桥</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">所有交换机比较BID（bridge id）</span><br><span class="line">BID = 优先级+MAC地址</span><br><span class="line">优先级越小越优先，</span><br><span class="line">优先级相同，比较MAC地址，越小越优先</span><br><span class="line">除了根桥以外，其余都是非根桥</span><br></pre></td></tr></table></figure><h3 id="第二步：选举根端口RP"><a href="#第二步：选举根端口RP" class="headerlink" title="第二步：选举根端口RP"></a>第二步：选举根端口RP</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">根端口：每个非根桥离根桥最近的端口</span><br><span class="line">每一个非根交换机有一个</span><br><span class="line">所有非根桥交换机的端口都参与选举</span><br><span class="line"></span><br><span class="line">比较每个端口到根桥的路径开销，开销越小的就是根端口</span><br><span class="line">如果开销都一样，比较端口对端交换机的BID，越小越优先</span><br><span class="line"></span><br><span class="line">如果BID一样，就比较PID</span><br><span class="line">PID = 端口优先级+端口号</span><br><span class="line">优先级越小越优先，优先级相同，端口号小的就是根端口</span><br></pre></td></tr></table></figure><h3 id="第三步：选举指定端口DP"><a href="#第三步：选举指定端口DP" class="headerlink" title="第三步：选举指定端口DP"></a>第三步：选举指定端口DP</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">根桥上所有端口都是指定端口</span><br><span class="line">每条链路，哪个端口到根桥开销最小，就是指定端口</span><br><span class="line">如果开销相同，比较端口所在交换机的BID，越小越优先</span><br></pre></td></tr></table></figure><p>剩下的就是阻塞端口AP</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据链路层协议 </category>
+          
+          <category> stp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> stp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ospf</title>
       <link href="/2021/12/22/ospf/"/>
       <url>/2021/12/22/ospf/</url>
