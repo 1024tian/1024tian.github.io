@@ -11,6 +11,18 @@
         <content type="html"><![CDATA[<h2 id="电脑关联多个github账号"><a href="#电脑关联多个github账号" class="headerlink" title="电脑关联多个github账号"></a>电脑关联多个github账号</h2><p>为了不必要换github账号时，老是重新设置ssh连接github。</p><h2 id="使用git-bash生成ssh公钥文件"><a href="#使用git-bash生成ssh公钥文件" class="headerlink" title="使用git bash生成ssh公钥文件"></a>使用git bash生成ssh公钥文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &#x27;xxxxx@qq.com&#x27;</span><br><span class="line">要按三下回车</span><br><span class="line">第一次输入文件名</span><br><span class="line">第二次是输入密码，无密码直接回车</span><br><span class="line">第三次是确认密码，无密码直接回车</span><br></pre></td></tr></table></figure><p>windws上文件是保存在C:\Users\用户名.ssh</p><h2 id="生成两对密钥后"><a href="#生成两对密钥后" class="headerlink" title="生成两对密钥后"></a>生成两对密钥后</h2><p>在C:\Users\用户名.ssh下新建config文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"># 1024</span><br><span class="line">Host 1024tiangithub</span><br><span class="line">HostName github.com</span><br><span class="line">User 1024tian</span><br><span class="line">IdentityFile C:\Users\用户名\.ssh\id_rsa_1024</span><br><span class="line"></span><br><span class="line"># 487</span><br><span class="line">Host 1024prophetgithub</span><br><span class="line">HostName github.com</span><br><span class="line">User 1024prophet</span><br><span class="line">IdentityFile C:\Users\用户名\.ssh\id_rsa_487</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>User 用户名，没啥用，就是让你知道这个配置是谁的<br>以后克隆别的仓库要使用 本地主机名（Host），因为在本地，Host会解析成github.com<br>就比如测试git连接github</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@1024tiangithub</span><br><span class="line">ssh -T git@1024prophetgithub</span><br></pre></td></tr></table></figure><p>1024tiangithub会解释成github.com<br>1024prophetgithub会解释成github.com</p><p>克隆仓库方式</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@1024tiangithub:pwndbg/pwndbg.git</span><br></pre></td></tr></table></figure><p>当然这只是使用ssh克隆仓库要这样改</p><p>如果是使用https方式克隆仓库，随便，不需要这样改</p>]]></content>
       
       
+      <categories>
+          
+          <category> 小技巧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小技巧 </tag>
+            
+        </tags>
       
     </entry>
     
