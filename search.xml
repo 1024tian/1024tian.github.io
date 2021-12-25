@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>网络模拟器配置注意</title>
+      <link href="/2021/12/26/%E7%BD%91%E7%BB%9C%E6%A8%A1%E6%8B%9F%E5%99%A8%E9%85%8D%E7%BD%AE%E6%B3%A8%E6%84%8F/"/>
+      <url>/2021/12/26/%E7%BD%91%E7%BB%9C%E6%A8%A1%E6%8B%9F%E5%99%A8%E9%85%8D%E7%BD%AE%E6%B3%A8%E6%84%8F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="思科设备："><a href="#思科设备：" class="headerlink" title="思科设备："></a>思科设备：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">关闭域名解析： no ip domain lookup  </span><br><span class="line">也可以使用crtl+shfit+6</span><br><span class="line"></span><br><span class="line">配置控制台永不超时：</span><br><span class="line">    line console 0</span><br><span class="line">    exec-timeout 0 0</span><br><span class="line">  </span><br><span class="line">防止打断命令输入：</span><br><span class="line">    line console 0</span><br><span class="line">    logging synchronous</span><br></pre></td></tr></table></figure><h2 id="ensp设备："><a href="#ensp设备：" class="headerlink" title="ensp设备："></a>ensp设备：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">打断命令输入：</span><br><span class="line">    undo info-center enable        关闭信息提示，显示设备不要这么做</span><br><span class="line">    undo terminal monitor        关闭控制台显示，也会无法记录log,现实设备不要这么做</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>stp</title>
       <link href="/2021/12/23/stp/"/>
       <url>/2021/12/23/stp/</url>
