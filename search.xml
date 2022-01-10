@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>tcp</title>
+      <link href="/2022/01/10/tcp/"/>
+      <url>/2022/01/10/tcp/</url>
+      
+        <content type="html"><![CDATA[<h2 id="tcp建立连接，三次握手"><a href="#tcp建立连接，三次握手" class="headerlink" title="tcp建立连接，三次握手"></a>tcp建立连接，三次握手</h2><p><img src="/img/tcp%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B.jpg"></p><h2 id="tcp断开连接，四次挥手"><a href="#tcp断开连接，四次挥手" class="headerlink" title="tcp断开连接，四次挥手"></a>tcp断开连接，四次挥手</h2><p><img src="/img/tcp%E5%9B%9B%E6%AC%A1%E6%8C%A5%E6%89%8B.jpg"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 传输层协议 </category>
+          
+          <category> tcp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> tcp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>github多账号配置</title>
       <link href="/2021/12/26/github%E5%A4%9A%E8%B4%A6%E5%8F%B7%E9%85%8D%E7%BD%AE/"/>
       <url>/2021/12/26/github%E5%A4%9A%E8%B4%A6%E5%8F%B7%E9%85%8D%E7%BD%AE/</url>
@@ -90,7 +117,7 @@
       
       <categories>
           
-          <category> 网络协议 </category>
+          <category> 网络层协议 </category>
           
           <category> ospf </category>
           
@@ -100,35 +127,6 @@
         <tags>
             
             <tag> ospf </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2021/12/18/hello-world/"/>
-      <url>/2021/12/18/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类1 </category>
-          
-          <category> 分类2 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test1 </tag>
-            
-            <tag> test2 </tag>
             
         </tags>
       
