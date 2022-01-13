@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>ipv4+port分类</title>
+      <link href="/2022/01/14/ipv4_port%E5%88%86%E7%B1%BB/"/>
+      <url>/2022/01/14/ipv4_port%E5%88%86%E7%B1%BB/</url>
+      
+        <content type="html"><![CDATA[<h2 id="ipv4地址分类"><a href="#ipv4地址分类" class="headerlink" title="ipv4地址分类"></a>ipv4地址分类</h2><table><thead><tr><th align="center"></th><th align="left">地址范围</th><th>有效地址</th><th>私有地址</th><th>保留地址</th></tr></thead><tbody><tr><td align="center">A类地址</td><td align="left">0.0.0.0~127.255.255.255</td><td>1.0.0.1~126.255.255.254</td><td>10.0.0.0~10.255.255.255</td><td>0.x.x.x    127.x.x.x</td></tr><tr><td align="center">B类地址</td><td align="left">128.0.0.0~191.255.255.255</td><td>128.0.0.1~191.255.255.254</td><td>172.16.0.0~172.31.255.255</td><td>169.254.x.x</td></tr><tr><td align="center">C类地址</td><td align="left">192.0.0.0~223.255.255.255</td><td>192.0.0.1~223.255.255.254</td><td>192.168.x.x</td><td></td></tr><tr><td align="center">D类地址</td><td align="left">224.0.0.0~239.255.255.255</td><td></td><td></td><td></td></tr><tr><td align="center">E类地址</td><td align="left">240.0.0.0~255.255.255.255</td><td></td><td></td><td></td></tr></tbody></table><p>D类、E类地址不分网络地址和主机地址</p><p>port端口分类</p><table><thead><tr><th>端口数量</th><th>65536个（即2^16），范围0-65535</th></tr></thead><tbody><tr><td>端口号分类</td><td></td></tr><tr><td>公认端口</td><td>0-1024</td></tr><tr><td>注册端口</td><td>1025-49151</td></tr><tr><td>动态端口</td><td>49152-65535</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> IPv4，端口分类 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IPv4 </tag>
+            
+            <tag> 端口 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>tcp</title>
       <link href="/2022/01/10/tcp/"/>
       <url>/2022/01/10/tcp/</url>
