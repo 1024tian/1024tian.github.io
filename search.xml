@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>二层帧</title>
+      <link href="/2022/01/22/%E4%BA%8C%E5%B1%82%E5%B8%A7/"/>
+      <url>/2022/01/22/%E4%BA%8C%E5%B1%82%E5%B8%A7/</url>
+      
+        <content type="html"><![CDATA[<h2 id="帧的封装"><a href="#帧的封装" class="headerlink" title="帧的封装"></a>帧的封装</h2><p>Ethernet_II帧（用户业务流）:DMAC+SMAC+type+DATA<br>IEEE802.3帧（协议控制帧）:DMAC+SMAC+length+LLC+SNAP+DATA</p><h2 id="Ethernet-II帧格式"><a href="#Ethernet-II帧格式" class="headerlink" title="Ethernet_II帧格式"></a>Ethernet_II帧格式</h2><p><img src="/img/Ethernet_II.jpg"><br>Ethernet_II帧类型值大于等于1536（0x0600）,Length/Type&gt;=1536(0x600)<br>以太2网数据帧的长度在64-1518字节之间<br>1500字节-MTU（最大传输单元）</p><h2 id="IEEE802-3帧格式"><a href="#IEEE802-3帧格式" class="headerlink" title="IEEE802.3帧格式"></a>IEEE802.3帧格式</h2><p><img src="/img/IEEE802.3%E5%B8%A7%E6%A0%BC%E5%BC%8F.jpg"><br>IEEE802.3帧长度字段值小于等于1500（0x05DC）,Length/Type&lt;=1500(0x05DC)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据帧 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 帧结构 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ipv4+port分类</title>
       <link href="/2022/01/14/ipv4_port%E5%88%86%E7%B1%BB/"/>
       <url>/2022/01/14/ipv4_port%E5%88%86%E7%B1%BB/</url>
