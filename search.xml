@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>冗余网关技术</title>
+      <link href="/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/"/>
+      <url>/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 冗余网关技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> VRRP </tag>
+            
+            <tag> HSRP </tag>
+            
+            <tag> GLBP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>二层帧</title>
       <link href="/2022/01/22/%E4%BA%8C%E5%B1%82%E5%B8%A7/"/>
       <url>/2022/01/22/%E4%BA%8C%E5%B1%82%E5%B8%A7/</url>
