@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>rip</title>
+      <link href="/2022/02/19/rip/"/>
+      <url>/2022/02/19/rip/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络层协议 </category>
+          
+          <category> IGP </category>
+          
+          <category> rip </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> rip </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>冗余网关技术</title>
       <link href="/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/"/>
       <url>/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/</url>
@@ -199,6 +228,8 @@
       <categories>
           
           <category> 网络层协议 </category>
+          
+          <category> IGP </category>
           
           <category> ospf </category>
           
