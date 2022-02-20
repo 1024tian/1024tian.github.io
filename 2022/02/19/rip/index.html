@@ -1,11 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>rip | 1024tian</title><meta name="keywords" content="rip"><meta name="author" content="wei-sir"><meta name="copyright" content="wei-sir"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="article">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>rip | 1024tian</title><meta name="keywords" content="rip"><meta name="author" content="wei-sir"><meta name="copyright" content="wei-sir"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="rip属于哪一层按封装顺序来看，是应用层协议。rip是被当作一个应用层进程（虽然它是一个能操作UNIX内核中的转发表的特殊进程)来实现的，所以它能在一个标准套接字上发送和接收报文，并且使用一个标准的运输层协议。rip是一个运行在UDP上的应用层协议。 从功能来看，是为IP提供路由服务，工作在网络层，认为是属于网络层协议。 属于哪一层，看从哪方面看，不需要纠结。 rip版本ripv1,ripv2,r">
+<meta property="og:type" content="article">
 <meta property="og:title" content="rip">
 <meta property="og:url" content="https://1024tian.github.io/2022/02/19/rip/index.html">
 <meta property="og:site_name" content="1024tian">
+<meta property="og:description" content="rip属于哪一层按封装顺序来看，是应用层协议。rip是被当作一个应用层进程（虽然它是一个能操作UNIX内核中的转发表的特殊进程)来实现的，所以它能在一个标准套接字上发送和接收报文，并且使用一个标准的运输层协议。rip是一个运行在UDP上的应用层协议。 从功能来看，是为IP提供路由服务，工作在网络层，认为是属于网络层协议。 属于哪一层，看从哪方面看，不需要纠结。 rip版本ripv1,ripv2,r">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg">
 <meta property="article:published_time" content="2022-02-19T14:19:20.000Z">
-<meta property="article:modified_time" content="2022-02-19T14:21:56.829Z">
+<meta property="article:modified_time" content="2022-02-20T14:56:19.732Z">
 <meta property="article:author" content="wei-sir">
 <meta property="article:tag" content="rip">
 <meta name="twitter:card" content="summary">
@@ -55,8 +57,8 @@
   isPost: true,
   isHome: false,
   isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2022-02-19 22:21:56'
+  isToc: true,
+  postUpdate: '2022-02-20 22:56:19'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -145,7 +147,186 @@
       }
     }
     detectApple()
-    document.addEventListener('pjax:complete', detectApple)})(window)</script><link rel="stylesheet" href="/css/mycss.css"><style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">1024tian</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">rip</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-02-19T14:19:20.000Z" title="发表于 2022-02-19 22:19:20">2022-02-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-02-19T14:21:56.829Z" title="更新于 2022-02-19 22:21:56">2022-02-19</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BD%91%E7%BB%9C%E5%B1%82%E5%8D%8F%E8%AE%AE/">网络层协议</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BD%91%E7%BB%9C%E5%B1%82%E5%8D%8F%E8%AE%AE/IGP/">IGP</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BD%91%E7%BB%9C%E5%B1%82%E5%8D%8F%E8%AE%AE/IGP/rip/">rip</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="rip"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">wei-sir</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://1024tian.github.io/2022/02/19/rip/">https://1024tian.github.io/2022/02/19/rip/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://1024tian.github.io" target="_blank">1024tian</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/rip/">rip</a></div><div class="post_share"><div class="social-share" data-image="https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/"><img class="next-cover" src="https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">冗余网关技术</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">wei-sir</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/1024tian"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/1024tian" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="tencent://AddContact/?fromId=45&amp;fromSubId=1&amp;subcmd=all&amp;uin=487315746&amp;website=www.oicqzone.com" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="mailto:prophet2021@163.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">不想青春有悔，我要上岸<img src="/img/my_bg.gif"></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/02/19/rip/" title="rip"><img src="https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="rip"/></a><div class="content"><a class="title" href="/2022/02/19/rip/" title="rip">rip</a><time datetime="2022-02-19T14:19:20.000Z" title="发表于 2022-02-19 22:19:20">2022-02-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/" title="冗余网关技术"><img src="https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="冗余网关技术"/></a><div class="content"><a class="title" href="/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/" title="冗余网关技术">冗余网关技术</a><time datetime="2022-02-17T08:05:29.000Z" title="发表于 2022-02-17 16:05:29">2022-02-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/22/%E4%BA%8C%E5%B1%82%E5%B8%A7/" title="二层帧"><img src="https://w.wallhaven.cc/full/1j/wallhaven-1jx3g3.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="二层帧"/></a><div class="content"><a class="title" href="/2022/01/22/%E4%BA%8C%E5%B1%82%E5%B8%A7/" title="二层帧">二层帧</a><time datetime="2022-01-22T11:43:19.000Z" title="发表于 2022-01-22 19:43:19">2022-01-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/14/ipv4_port%E5%88%86%E7%B1%BB/" title="ipv4+port分类"><img src="https://w.wallhaven.cc/full/q2/wallhaven-q2pxml.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ipv4+port分类"/></a><div class="content"><a class="title" href="/2022/01/14/ipv4_port%E5%88%86%E7%B1%BB/" title="ipv4+port分类">ipv4+port分类</a><time datetime="2022-01-13T16:47:31.000Z" title="发表于 2022-01-14 00:47:31">2022-01-14</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/10/tcp/" title="tcp"><img src="https://w.wallhaven.cc/full/1k/wallhaven-1k2zj3.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="tcp"/></a><div class="content"><a class="title" href="/2022/01/10/tcp/" title="tcp">tcp</a><time datetime="2022-01-10T14:41:54.000Z" title="发表于 2022-01-10 22:41:54">2022-01-10</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By wei-sir</div><div class="footer_custom_text">不想青春有悔，我要上岸</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script type="text/javascript" src="/js/fairyDustCursor.js"></script><script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/js/upjiang.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/js/upjiang.js"></script><div class="aplayer no-destroy" data-id="7911809559" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="true"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/SerokSSR/cdn/meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
+    document.addEventListener('pjax:complete', detectApple)})(window)</script><link rel="stylesheet" href="/css/mycss.css"><style type="text/css">.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body{left:-66px!important}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover{left:0!important}</style><meta name="generator" content="Hexo 5.4.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">1024tian</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">rip</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-02-19T14:19:20.000Z" title="发表于 2022-02-19 22:19:20">2022-02-19</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-02-20T14:56:19.732Z" title="更新于 2022-02-20 22:56:19">2022-02-20</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/IGP/">IGP</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/IGP/rip/">rip</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="rip"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="rip属于哪一层"><a href="#rip属于哪一层" class="headerlink" title="rip属于哪一层"></a>rip属于哪一层</h2><p>按封装顺序来看，是应用层协议。rip是被当作一个应用层进程（虽然它是一个能操作UNIX内核中的转发表的特殊进程)来实现的，所以它能在一个标准套接字上发送和接收报文，并且使用一个标准的运输层协议。rip是一个运行在UDP上的应用层协议。</p>
+<p>从功能来看，是为IP提供路由服务，工作在网络层，认为是属于网络层协议。</p>
+<p>属于哪一层，看从哪方面看，不需要纠结。</p>
+<h2 id="rip版本"><a href="#rip版本" class="headerlink" title="rip版本"></a>rip版本</h2><p>ripv1,ripv2,ripng</p>
+<p>ripng是在rip基础上进行设计出来的，用于基于 IP 版本 6 （IPv6） 的网络。默认情况下，RIPng 处于禁用状态。</p>
+<p>必须启用 IPv6 才能使用 RIPng，多数RIPv2的原理都可以适用于RIPng</p>
+<p>rip我们就指ripv1、ripv2</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center">ripv1</th>
+<th align="center">ripv2</th>
+<th align="center">ripng</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>协议号</td>
+<td align="center">17</td>
+<td align="center">17</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td>端口号</td>
+<td align="center">520</td>
+<td align="center">520</td>
+<td align="center">521</td>
+<td></td>
+</tr>
+<tr>
+<td>管理距离</td>
+<td align="center">120</td>
+<td align="center">120</td>
+<td align="center"></td>
+<td></td>
+</tr>
+</tbody></table>
+<h2 id="管理距离"><a href="#管理距离" class="headerlink" title="管理距离"></a>管理距离</h2><p>“管理距离”(AD) 代表路由来源的可信度（或优先程度）。RIP 的默认管理距离为 <strong>120</strong>。与其它内部网关协议相比，RIP 路由协议的优先级最低。IS-IS、OSPF、IGRP 和 EIGRP 的默认 AD 值都比 RIP 低。</p>
+<table>
+<thead>
+<tr>
+<th align="left">路由源（路由协议）</th>
+<th align="center">默认管理距离</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">直连路由</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">静态到接口</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="left">静态到下一跳</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="left">External BGP</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="left">OSPF</td>
+<td align="center">110</td>
+</tr>
+<tr>
+<td align="left">IS-IS</td>
+<td align="center">115</td>
+</tr>
+<tr>
+<td align="left">PIR V1，V2</td>
+<td align="center">120</td>
+</tr>
+<tr>
+<td align="left">Internal BGP</td>
+<td align="center">200</td>
+</tr>
+<tr>
+<td align="left">未知</td>
+<td align="center">255</td>
+</tr>
+</tbody></table>
+<p>当管理距离为255时，该协议产生的路由是最不可信的，路由条目是不会进入到本地路由表中。</p>
+<p>show ip route 或 show ip protocols 命令查看管理距离</p>
+<h2 id="ripv1、ripv2区别"><a href="#ripv1、ripv2区别" class="headerlink" title="ripv1、ripv2区别"></a>ripv1、ripv2区别</h2><table>
+<thead>
+<tr>
+<th></th>
+<th align="center">ripv1</th>
+<th align="center">ripv2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>基于协议和端口号</td>
+<td align="center">UDP （520）</td>
+<td align="center">UDP （520）</td>
+</tr>
+<tr>
+<td>路由协议</td>
+<td align="center">有类路由</td>
+<td align="center">无类路由</td>
+</tr>
+<tr>
+<td>周期更新</td>
+<td align="center">更新周期为30秒（25.5-30秒之间随机产生）</td>
+<td align="center">更新周期为30秒（25.5-30秒之间随机产生）</td>
+</tr>
+<tr>
+<td>更新方式</td>
+<td align="center">广播更新(255.255.255.255)，触发更新</td>
+<td align="center">组播更新(224.0.0.9)，触发更新</td>
+</tr>
+<tr>
+<td>认证</td>
+<td align="center">不支持</td>
+<td align="center">支持明文和MD5认证</td>
+</tr>
+<tr>
+<td>路由自动汇总</td>
+<td align="center">默认开启，不能关闭</td>
+<td align="center">默认开启，可以关闭，支持手动汇总</td>
+</tr>
+<tr>
+<td>收发报文</td>
+<td align="center">发出ripv1，接收ripv1、ripv2</td>
+<td align="center">只会发送和接收ripv2</td>
+</tr>
+</tbody></table>
+<h2 id="有类路由和无类路由"><a href="#有类路由和无类路由" class="headerlink" title="有类路由和无类路由"></a>有类路由和无类路由</h2><p>有类路由协议——路由更新时不携带掩码信息</p>
+<p>无类路由协议——路由更新时携带掩码信息</p>
+<h2 id="ripv1发送路由，接收路由规则"><a href="#ripv1发送路由，接收路由规则" class="headerlink" title="ripv1发送路由，接收路由规则"></a>ripv1发送路由，接收路由规则</h2><h3 id="发送路由"><a href="#发送路由" class="headerlink" title="发送路由"></a>发送路由</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">**发送接口的ip，要发送的路由是否与出ip是不是在一个主类</span></span><br><span class="line"><span class="number">1</span><span class="string">.在一个主类，看掩码</span></span><br><span class="line"></span><br><span class="line"><span class="string">掩码相同</span></span><br><span class="line"><span class="string">e.g:路由10.1.2.0/24和接口10.1.12.0/24，发送10.1.2.0</span></span><br><span class="line"></span><br><span class="line"><span class="string">掩码不同，发送主类前缀</span></span><br><span class="line"><span class="string">e.g:路由10.1.3.0/25和接口10.1.12.0/24，发送10.0.0.0</span></span><br><span class="line"></span><br><span class="line"><span class="string">掩码不同，如果主机位有1</span></span><br><span class="line"><span class="string">e.g:路由10.1.1.1/32和接口10.1.12.0/24，发送10.1.1.1</span></span><br><span class="line"></span><br><span class="line"><span class="number">2</span><span class="string">.如果不在一个主类，掩码相同或不同，发送路由的主类前缀</span></span><br><span class="line"><span class="string">e.g:路由192.168.1.0/25和接口10.1.12.0/24，发送192.168.1.0</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="接收路由"><a href="#接收路由" class="headerlink" title="接收路由"></a>接收路由</h3><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">**先看收到的路由与入接口ip是不是在一个主类</span></span><br><span class="line"><span class="number">1</span><span class="string">.在同一个主类，就以入接口的掩码匹配路由的掩码</span></span><br><span class="line"><span class="string">e.g:路由10.1.2.0和入接口10.1.12.0/24,写入路由表10.1.2.0/24</span></span><br><span class="line"></span><br><span class="line"><span class="number">2</span><span class="string">.在一个主类，收到的直接就是主类路由，以主类掩码匹配</span></span><br><span class="line"><span class="string">e.g:路由10.0.0.0和入接口10.1.12.0/24,写入10.0.0.0/8</span></span><br><span class="line"></span><br><span class="line"><span class="number">3</span><span class="string">.不在同一主类，就以入接口的掩码匹配路由的掩码</span></span><br><span class="line"><span class="string">e.g:路由192.168.1.0和入接口10.1.12.0/24，写入192.168.1.0/24</span></span><br><span class="line"></span><br><span class="line"><span class="string">如果用入接口掩码匹配时，主机位有1，以32位掩码匹配</span></span><br><span class="line"><span class="string">e.g:路由10.1.1.1和入接口10.1.12.0/24，写入10.1.1.1/32</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="rip触发更新，被动接口"><a href="#rip触发更新，被动接口" class="headerlink" title="rip触发更新，被动接口"></a>rip触发更新，被动接口</h2><p>RIP触发更新（RIP v1、RIP v2都适用）</p>
+<p>RIP可以调整为在广域网链路上抑制路由更新的发送，而只仅仅在路由有变化时，将有变化的路由发出去，这就是RIP的 触发更新机制，并且是基于接口开启或关闭的,RIP 触发更新只支持在点到点链路上开启或关闭。</p>
+<p>对于Frame-Relay和以太网这样的多路访问接口中，不支持RIP 触发更新，但是Frame-Relay点到点子接口被RIP认为是点到点链路，可以开启触发更新。</p>
+<p>在双方都开启后，相互收到的路由都会被注明永久有效(permanent)而不需要再次收到更新</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#在接口上开启触发更新功能。只有在点对点双方均开启之后触发更新才会生效</span></span><br><span class="line"><span class="string">router(config-if)#ip</span> <span class="string">rip</span> <span class="string">triggered</span></span><br><span class="line"><span class="comment">#当一个运行RIP协议的接口被配置为被动接口后，这个接口不发出路由的更新信息但接受路由的更新信息。</span></span><br><span class="line"><span class="string">router(config)#router</span> <span class="string">rip</span> </span><br><span class="line"><span class="string">router(config-router)#passive-interface</span> <span class="string">s1/1</span>             <span class="string">/*将S</span> <span class="number">1</span><span class="string">/1接口配置为被动接口*/</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="rip定时器"><a href="#rip定时器" class="headerlink" title="rip定时器"></a>rip定时器</h2><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>更新计时器</td>
+<td>用于实现对路由条目的周期交互</td>
+<td>30s</td>
+</tr>
+<tr>
+<td>失效计时器</td>
+<td>如果路由在180s内没有收到更新或确认，那么这条路由被标记为“失效”。但是RIP数据库中仍然存在</td>
+<td>180s(30s+150s)</td>
+</tr>
+<tr>
+<td>刷新计时器</td>
+<td>如果路由设置为16跳开始计时，失效计时器到时，再过60s(思科）或者120s(华为），还没收到路由更新包。路由器就刷新路由表，把不可达的路由条目删掉。</td>
+<td>思科240s，华为300s</td>
+</tr>
+<tr>
+<td>抑制定时器</td>
+<td>当RIP设备收到对端的路由更新，其cost为16，对应路由进入抑制状态，并启动抑制定时器。为了防止路由震荡，在抑制定时器超时之前，即使再收到对端路由cost小于16的更新，也不接受。当抑制定时器超时后，就重新允许接受对端发送的路由更新报文。</td>
+<td>180s</td>
+</tr>
+</tbody></table>
+<p>如果存在触发更新，那么一个路由条目最多需要120s(华为)才能被删除（即为刷新计时器）</p>
+<h2 id="rip路由防环"><a href="#rip路由防环" class="headerlink" title="rip路由防环"></a>rip路由防环</h2><p>水平分割，从某一个邻居获取的路由信息不再向这个邻居发送回去</p>
+<p>路由中毒，把路由表中的路由项设置度量值无穷大（16）</p>
+<p>毒化逆转，把路由表中的路由项中度量值无穷大（16）发送（通告）给rip邻居</p>
+<p>触发更新，通常每30秒发送更新信息，但是一有变化，路由器立即发送新的路由表</p>
+<p>抑制计时，一条路由无效之后，一段时间内这条路由都处于抑制状态（180s），在这个时间内不在接收关于同一目的地址的路由更新</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">wei-sir</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://1024tian.github.io/2022/02/19/rip/">https://1024tian.github.io/2022/02/19/rip/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://1024tian.github.io" target="_blank">1024tian</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/rip/">rip</a></div><div class="post_share"><div class="social-share" data-image="https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/02/17/%E5%86%97%E4%BD%99%E7%BD%91%E5%85%B3%E6%8A%80%E6%9C%AF/"><img class="next-cover" src="https://w.wallhaven.cc/full/2k/wallhaven-2kx8mg.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">冗余网关技术</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#rip%E5%B1%9E%E4%BA%8E%E5%93%AA%E4%B8%80%E5%B1%82"><span class="toc-number">1.</span> <span class="toc-text">rip属于哪一层</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rip%E7%89%88%E6%9C%AC"><span class="toc-number">2.</span> <span class="toc-text">rip版本</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%A1%E7%90%86%E8%B7%9D%E7%A6%BB"><span class="toc-number">3.</span> <span class="toc-text">管理距离</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ripv1%E3%80%81ripv2%E5%8C%BA%E5%88%AB"><span class="toc-number">4.</span> <span class="toc-text">ripv1、ripv2区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%89%E7%B1%BB%E8%B7%AF%E7%94%B1%E5%92%8C%E6%97%A0%E7%B1%BB%E8%B7%AF%E7%94%B1"><span class="toc-number">5.</span> <span class="toc-text">有类路由和无类路由</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ripv1%E5%8F%91%E9%80%81%E8%B7%AF%E7%94%B1%EF%BC%8C%E6%8E%A5%E6%94%B6%E8%B7%AF%E7%94%B1%E8%A7%84%E5%88%99"><span class="toc-number">6.</span> <span class="toc-text">ripv1发送路由，接收路由规则</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%91%E9%80%81%E8%B7%AF%E7%94%B1"><span class="toc-number">6.1.</span> <span class="toc-text">发送路由</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8E%A5%E6%94%B6%E8%B7%AF%E7%94%B1"><span class="toc-number">6.2.</span> <span class="toc-text">接收路由</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rip%E8%A7%A6%E5%8F%91%E6%9B%B4%E6%96%B0%EF%BC%8C%E8%A2%AB%E5%8A%A8%E6%8E%A5%E5%8F%A3"><span class="toc-number">7.</span> <span class="toc-text">rip触发更新，被动接口</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rip%E5%AE%9A%E6%97%B6%E5%99%A8"><span class="toc-number">8.</span> <span class="toc-text">rip定时器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rip%E8%B7%AF%E7%94%B1%E9%98%B2%E7%8E%AF"><span class="toc-number">9.</span> <span class="toc-text">rip路由防环</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By wei-sir</div><div class="footer_custom_text">不想青春有悔，我要上岸</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"></div><script type="text/javascript" src="/js/fairyDustCursor.js"></script><script src="https://cdn.jsdelivr.net/gh/yremp/yremp-js@1.5/sakura.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/js/upjiang.js"></script><script src="https://cdn.jsdelivr.net/gh/lete114/CDN/js/upjiang.js"></script><div class="aplayer no-destroy" data-id="7911809559" data-server="tencent" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js" async="async" mobile="true"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/SerokSSR/cdn/meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = [
   'title',
   '#config-diff',
   '#body-wrap',
