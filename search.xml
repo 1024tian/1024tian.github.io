@@ -8,7 +8,7 @@
       <link href="/2022/05/05/ACL/"/>
       <url>/2022/05/05/ACL/</url>
       
-        <content type="html"><![CDATA[<p>思科：<br>标准ACL：传统的标准ACL 1<del>99,1300-1999<br>扩展ACL： 100</del>199,2000-2699<br>命名标准ACL：ip access-list standry acl_name 回车<br>命名扩展ACL： ipaccess-list extended acl_name 回车</p><p>华为：<br>接口ACL：1000~1999</p><p>基本ACL：2000~2999</p><p>高级ACL：数字型高级ACL：3000<del>3999<br>                命名型高级ACl：42768</del>75535           （32768个）</p><p>二层数据帧访问控制列表：4000<del>4999<br>自定义ACL（编号5000—-5999）<br>用户ACL：6000</del>6031</p>]]></content>
+        <content type="html"><![CDATA[<p>思科：<br>标准ACL：传统的标准ACL 1-99,1300-1999<br>扩展ACL： 100-199,2000-2699<br>命名标准ACL：ip access-list standry acl_name 回车<br>命名扩展ACL： ipaccess-list extended acl_name 回车</p><p>华为：<br>接口ACL：1000-1999</p><p>基本ACL：2000-2999</p><p>高级ACL：数字型高级ACL：3000-3999<br>                命名型高级ACl：42768-75535           （32768个）</p><p>二层数据帧访问控制列表：4000-4999<br>自定义ACL（编号5000-5999）<br>用户ACL：6000-6031</p>]]></content>
       
       
       <categories>
